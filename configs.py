@@ -25,10 +25,10 @@ PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
 DISABLE_CHANNEL_BUTTON = bool(environ.get('DISABLE_CHANNEL_BUTTON', False))
 HAS_SSL=bool(getenv('HAS_SSL',False))
 if HAS_SSL:
-    URL = "https://{}/".format(FQDN)
+    URL = "https://{}/".format(https://soviet-mignon-sajidff-f178be2a.koyeb.app/)
 else:
-    URL = "http://{}/".format(FQDN)
-UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', None))
+    URL = "http://{}/".format(https://soviet-mignon-sajidff-f178be2a.koyeb.app/)
+UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', -1002194481342))
 BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "-1001987654567")).split())) 
 STREAM_LOGS = environ.get('STREAM_LOGS','-1002367385611')
 SESSION = environ.get('SESSION','MissRozy')
